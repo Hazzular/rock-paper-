@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="../repos/javascript-exercises/07_tempConversion/tempConversion.js"></script>
+    <link rel="stylesheet" href="rock.css"></link>
+    <script src="rock.js" defer></script>
 </head>
 <body>
-    
+  <div class= "selections">
+      <button class="selection" data-selection="rock"><img  src="rock.jpeg" alt=""></button>
+      <button class="selection" data-selection="paper"><img  src="paper.jpeg" alt=""></button>
+      <button class="selection" data-selection="scissors"><img src="scissors.jpeg" alt=""></button>
+  </div>
+
+  <div class= "results">
+    <div>
+        You
+        <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>
+        Computer
+        <span class="result-score" data-computer-score>0</span>
+    </div>
+    <!--<div class="result-selection winner"><img class= "image winner", src="rock.jpeg"></div>
+    <div class= "result-selection"><img class="image" src="scissors.jpeg"></div> -->
+  </div>
+  
 </body>
 </html>
